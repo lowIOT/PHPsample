@@ -13,9 +13,9 @@ if(isset($_POST['mess'])) {
     $addr = $_POST['mess'];
     echo "検索結果".'<br/>';
     
-    $user = 'it15';
-    $password = 'IT15';
-    $dbname = 'sample';
+    $user = '****';
+    $password = '****';
+    $dbname = '****';
 
     $mydb = mysqli_connect('localhost',$user,$password,$dbname);
 
